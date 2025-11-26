@@ -1,0 +1,20 @@
+# Python venv
+.venv/
+.venv_taric/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Lokale Datenbanken
+*.db
+
+# API Keys / Secrets
+API_GEMINI.txt
+
+# Bilder (lokale Evaluationsdaten)
+bilder/
+bilder_uploads/
+
+# VS Code Settings (optional)
+.vscode/
