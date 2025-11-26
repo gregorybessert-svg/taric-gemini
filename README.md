@@ -1,6 +1,3 @@
-Hier ist eine klar strukturierte, saubere und vollständige **README.md**, fertig zum Einfügen auf GitHub.
-Sie ist so geschrieben, dass ein Kollege ohne Rückfragen sofort versteht, was das Projekt tut und wie er es starten kann.
-
 ---
 
 # README.md
