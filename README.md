@@ -28,6 +28,14 @@ Das Projekt dient der automatisierten Bilderkennung und TARIC-Klassifizierung ü
   ```bash
   python3 -m http.server 8080 --bind 0.0.0.0
   ```
+
+Frontwnd sollte die ip dre Backendserver Maschine haben, daher automatisch korrekte ip setzen
+``bash
+[17:47:43] qb@mac ~/projects/taric-gemini % /usr/bin/python3 -m http.server 8080 --bind $(ipconfig getifaddr en0)
+
+Serving HTTP on 192.168.7.124 port 8080 (http://192.168.7.124:8080/) ...
+```
+
 * Index-Datei wird korrekt von anderen Geräten im Netzwerk geladen
 
 ## Netzwerk & Firewall
