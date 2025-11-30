@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
   <meta charset="UTF-8" />
   <title>TARIC Evaluation – Zollprüfung</title>
@@ -11,8 +10,8 @@
       --bg-panel: #0f172a;
       --border: #1f2937;
       --accent: #2563eb;
-      --accent-soft: rgba(37, 99, 235, 0.12);
-      --accent-strong: rgba(37, 99, 235, 0.4);
+      --accent-soft: rgba(37,99,235,0.12);
+      --accent-strong: rgba(37,99,235,0.4);
       --text: #e5e7eb;
       --text-muted: #9ca3af;
       --error: #ef4444;
@@ -41,8 +40,8 @@
       max-width: 1080px;
       background: linear-gradient(145deg, #020617 0%, #020617 55%, #020617 100%);
       border-radius: 24px;
-      border: 1px solid rgba(148, 163, 184, 0.35);
-      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.75);
+      border: 1px solid rgba(148,163,184,0.35);
+      box-shadow: 0 18px 45px rgba(15,23,42,0.75);
       padding: 16px 16px 20px;
       display: flex;
       flex-direction: column;
@@ -62,7 +61,6 @@
       justify-content: space-between;
       align-items: center;
       gap: 12px;
-      flex-wrap: wrap;
     }
 
     h1 {
@@ -95,7 +93,7 @@
       text-decoration: none;
       padding: 6px 12px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.4);
+      border: 1px solid rgba(148,163,184,0.4);
       color: #e5e7eb;
       font-size: 0.8rem;
       display: inline-flex;
@@ -112,13 +110,13 @@
 
     .nav-link:hover {
       transform: translateY(-1px);
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.7);
-      border-color: rgba(191, 219, 254, 0.6);
+      box-shadow: 0 10px 25px rgba(15,23,42,0.7);
+      border-color: rgba(191,219,254,0.6);
       background: radial-gradient(circle at top, #1d4ed8, #020617);
     }
 
     .nav-link.active {
-      border-color: rgba(129, 140, 248, 0.9);
+      border-color: rgba(129,140,248,0.9);
       background: radial-gradient(circle at top, #1d4ed8, #020617);
     }
 
@@ -126,13 +124,9 @@
       padding: 4px 8px;
       border-radius: 999px;
       background: #020617;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       color: var(--text);
       font-size: 0.8rem;
-    }
-
-    .backend-select {
-      font-size: 0.75rem;
     }
 
     main {
@@ -151,9 +145,9 @@
     .panel {
       background: radial-gradient(circle at top left, #020617, #000 95%);
       border-radius: var(--radius);
-      border: 1px solid rgba(31, 41, 55, 0.9);
+      border: 1px solid rgba(31,41,55,0.9);
       padding: 12px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.55);
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -173,7 +167,7 @@
 
     .thumb-box {
       border-radius: 12px;
-      border: 1px solid rgba(31, 41, 55, 0.9);
+      border: 1px solid rgba(31,41,55,0.9);
       padding: 8px;
       background: #020617;
       display: flex;
@@ -206,8 +200,8 @@
     .code-pill {
       border-radius: 999px;
       padding: 3px 8px;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(148,163,184,0.7);
+      background: rgba(15,23,42,0.85);
       display: inline-flex;
       align-items: center;
       gap: 4px;
@@ -233,7 +227,7 @@
       flex: 1;
       height: 6px;
       border-radius: 999px;
-      background: rgba(31, 41, 55, 0.85);
+      background: rgba(31,41,55,0.85);
       overflow: hidden;
     }
 
@@ -249,8 +243,8 @@
       font-size: 0.7rem;
       padding: 2px 8px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148,163,184,0.7);
+      background: rgba(15,23,42,0.9);
       display: inline-flex;
       align-items: center;
       gap: 4px;
@@ -281,7 +275,7 @@
     textarea {
       width: 100%;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.7);
+      border: 1px solid rgba(148,163,184,0.7);
       padding: 5px 8px;
       background: #020617;
       color: var(--text);
@@ -306,7 +300,7 @@
       min-width: 32px;
       padding: 5px 8px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       background: radial-gradient(circle at top, #020617, #020617 90%);
       color: #e5e7eb;
       font-size: 0.82rem;
@@ -318,7 +312,7 @@
       gap: 4px;
       transition: transform 0.1s ease, box-shadow 0.1s ease,
         background 0.1s ease, border-color 0.1s ease;
-      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.6);
+      box-shadow: 0 6px 14px rgba(15,23,42,0.6);
     }
 
     .chip span.icon {
@@ -327,14 +321,14 @@
 
     .chip:hover {
       transform: translateY(-1px);
-      border-color: rgba(191, 219, 254, 0.8);
-      box-shadow: 0 10px 22px rgba(15, 23, 42, 0.8);
+      border-color: rgba(191,219,254,0.8);
+      box-shadow: 0 10px 22px rgba(15,23,42,0.8);
     }
 
     .chip.selected {
       background: radial-gradient(circle at top, #1d4ed8, #020617);
-      border-color: rgba(129, 140, 248, 0.9);
-      box-shadow: 0 10px 28px rgba(37, 99, 235, 0.6);
+      border-color: rgba(129,140,248,0.9);
+      box-shadow: 0 10px 28px rgba(37,99,235,0.6);
     }
 
     .chip.secondary {
@@ -356,7 +350,7 @@
 
     .btn {
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       padding: 7px 14px;
       font-size: 0.85rem;
       cursor: pointer;
@@ -367,7 +361,7 @@
       gap: 0.3rem;
       transition: transform 0.12s ease, box-shadow 0.12s ease,
         background 0.12s ease, border-color 0.12s ease;
-      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+      box-shadow: 0 10px 25px rgba(37,99,235,0.35);
     }
 
     .btn span.icon {
@@ -382,38 +376,8 @@
 
     .btn:hover:not(:disabled) {
       transform: translateY(-1px);
-      border-color: rgba(191, 219, 254, 0.9);
+      border-color: rgba(191,219,254,0.9);
       background: radial-gradient(circle at top, #1d4ed8, #020617);
-    }
-
-    .btn-row.image-nav {
-      justify-content: space-between;
-      margin-top: 10px;
-    }
-
-    .btn-row.form-actions {
-      justify-content: flex-end;
-      margin-top: 8px;
-    }
-
-    @media (max-width: 600px) {
-      .btn-row.image-nav {
-        justify-content: space-between;
-      }
-
-      .btn-row.image-nav .btn {
-        flex: 1 1 calc(50% - 4px);
-        justify-content: center;
-      }
-
-      .btn-row.form-actions {
-        justify-content: space-between;
-      }
-
-      .btn-row.form-actions .btn {
-        flex: 1 1 calc(50% - 4px);
-        justify-content: center;
-      }
     }
 
     .status {
@@ -457,18 +421,10 @@
       height: 6px;
       border-radius: 999px;
       background: linear-gradient(90deg, #f97316, #facc15, #22c55e);
-      border: 1px solid rgba(148, 163, 184, 0.7);
-    }
-
-    @media (max-width: 600px) {
-      .header-bar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
+      border: 1px solid rgba(148,163,184,0.7);
     }
   </style>
 </head>
-
 <body>
   <div class="page">
     <header>
@@ -485,10 +441,6 @@
             <option value="unreviewed" selected>Nur unbewertete</option>
             <option value="reviewed">Nur bewertete</option>
             <option value="all">Alle</option>
-          </select>
-          <select id="backendModeSelect" class="backend-select">
-            <option value="local">Backend: Local</option>
-            <option value="cloudflare">Backend: Cloudflare</option>
           </select>
           <a href="index.html" class="nav-link">
             <span class="icon">📷</span><span>Klassifikation</span>
@@ -516,15 +468,6 @@
           <div class="no-data">
             Noch keine Daten geladen. Filter wählen oder Seite lädt automatisch beim Start.
           </div>
-        </div>
-
-        <div class="btn-row image-nav">
-          <button id="prevBtn" class="btn">
-            <span class="icon">⬅️</span><span>Zurück</span>
-          </button>
-          <button id="nextBtn" class="btn">
-            <span class="icon">➡️</span><span>Weiter</span>
-          </button>
         </div>
       </section>
 
@@ -568,12 +511,18 @@
           <input id="supervisorInput" type="number" min="0" max="10" step="1" />
         </div>
 
-        <div class="btn-row form-actions">
+        <div class="btn-row">
           <button id="saveBtn" class="btn">
             <span class="icon">💾</span><span>Speichern</span>
           </button>
           <button id="saveNextBtn" class="btn">
             <span class="icon">⏭️</span><span>Speichern &amp; nächster</span>
+          </button>
+          <button id="prevBtn" class="btn">
+            <span class="icon">⬅️</span><span>Zurück</span>
+          </button>
+          <button id="nextBtn" class="btn">
+            <span class="icon">➡️</span><span>Weiter</span>
           </button>
         </div>
 
@@ -585,97 +534,10 @@
   </div>
 
   <script>
-    // -----------------------------
-    // Backend-Mode & URL-Auflösung
-    // -----------------------------
-    let cloudflareBackendUrlCache = null;
+    const BACKEND_PORT = "8000";
+    const API_HOST = window.location.hostname || "localhost";
+    const API_BASE = `${window.location.protocol}//${API_HOST}:${BACKEND_PORT}`;
 
-    /*function getBackendMode() {
-      try {
-        const stored = localStorage.getItem("taricBackendMode");
-        return stored === "cloudflare" ? "cloudflare" : "local";
-      } catch {
-        return "local";
-      }
-    }
-    */
-    function getBackendMode() {
-      try {
-        const stored = localStorage.getItem("taricBackendMode");
-        if (stored === "local" || stored === "cloudflare") {
-          return stored;
-        }
-        // Standardmodus, falls noch nichts gespeichert wurde:
-        return "cloudflare";
-      } catch {
-        return "cloudflare";
-      }
-    }
-
-    function setBackendModeStored(mode) {
-      const val = mode === "cloudflare" ? "cloudflare" : "local";
-      try {
-        localStorage.setItem("taricBackendMode", val);
-      } catch { }
-      return val;
-    }
-
-    function getLocalApiBase() {
-      const host = window.location.hostname || "localhost";
-      const protocol = window.location.protocol === "https:" ? "https:" : "http:";
-      // Lokaler Backend-Port 8000
-      return `${protocol}//${host}:8000`;
-    }
-
-    async function loadCloudflareBackendUrlFromJson() {
-      if (cloudflareBackendUrlCache) {
-        return cloudflareBackendUrlCache;
-      }
-      try {
-        const res = await fetch("backend_url.json", { cache: "no-store" });
-        if (!res.ok) {
-          console.error("backend_url.json nicht erreichbar:", res.status);
-          return null;
-        }
-        const cfg = await res.json();
-        if (cfg.backend_url) {
-          const url = cfg.backend_url.replace(/\/+$/, "");
-          cloudflareBackendUrlCache = url;
-          return url;
-        } else {
-          console.error("backend_url.json enthält kein 'backend_url'");
-          return null;
-        }
-      } catch (err) {
-        console.error("Fehler beim Laden von backend_url.json:", err);
-        return null;
-      }
-    }
-
-    async function getBackendBaseUrl() {
-      const mode = getBackendMode();
-      if (mode === "cloudflare") {
-        const url = await loadCloudflareBackendUrlFromJson();
-        if (url) {
-          return url;
-        }
-        // Fallback, falls backend_url.json nicht lesbar ist
-        return getLocalApiBase();
-      } else {
-        return getLocalApiBase();
-      }
-    }
-
-    async function backendFetch(path, options = {}) {
-      const base = await getBackendBaseUrl();
-      const url = base + path;
-      console.log("backendFetch →", url);
-      return fetch(url, options);
-    }
-
-    // -----------------------------
-    // UI-Elemente
-    // -----------------------------
     const filterSelect = document.getElementById("filterSelect");
     const imageCard = document.getElementById("imageCard");
     const indexInfo = document.getElementById("indexInfo");
@@ -688,7 +550,6 @@
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
     const statusLine = document.getElementById("statusLine");
-    const backendModeSelect = document.getElementById("backendModeSelect");
 
     const correctDigitsChipsContainer = document.getElementById("correctDigitsChips");
     const supervisorChipsContainer = document.getElementById("supervisorChips");
@@ -723,6 +584,7 @@
       }
     }
 
+    // Chips initial (0–10)
     createNumberChips(correctDigitsChipsContainer, 0, 10, 2);
     createNumberChips(supervisorChipsContainer, 0, 10, 2);
 
@@ -791,11 +653,13 @@
     function updateFormVisibility() {
       const mode = filterSelect.value;
       if (mode === "reviewed") {
+        // Nur Supervisor-Bewertung anzeigen
         correctDigitsGroup.style.display = "none";
         reviewerGroup.style.display = "none";
         commentGroup.style.display = "none";
         supervisorGroup.style.display = "block";
       } else {
+        // Alle Bewertungen sichtbar
         correctDigitsGroup.style.display = "block";
         reviewerGroup.style.display = "block";
         commentGroup.style.display = "block";
@@ -811,10 +675,10 @@
       currentIndex = 0;
 
       const query = getFilterParams();
-      const path = `/api/evaluation/items?${query}`;
+      const url = `${API_BASE}/api/evaluation/items?${query}`;
 
       try {
-        const res = await backendFetch(path);
+        const res = await fetch(url);
         if (!res.ok) {
           const text = await res.text();
           console.error("Fehler /api/evaluation/items:", text);
@@ -866,9 +730,7 @@
       const item = items[currentIndex];
       indexInfo.textContent = `Datensatz ${currentIndex + 1} / ${items.length}`;
 
-      const filename = item.filename || "";
-      const imgSrc = `bilder_uploads/${filename}`;
-      console.log("Bild-URL:", imgSrc, "Filename:", filename);
+      const imgSrc = `bilder_uploads/${item.filename}`;
 
       const confRaw = typeof item.confidence === "number"
         ? item.confidence
@@ -877,10 +739,10 @@
       const confPct = Math.round(conf * 100);
 
       imageCard.innerHTML = `
-        <img src="${imgSrc}" alt="${filename}" />
+        <img src="${imgSrc}" alt="${item.filename}" />
         <div class="meta">
           <div><strong>taric_live.id:</strong> ${item.taric_live_id ?? item.id ?? "–"}</div>
-          <div><strong>Datei:</strong> ${filename}</div>
+          <div><strong>Datei:</strong> ${item.filename || ""}</div>
           <div><strong>Erfasst:</strong> ${item.created_at || ""}</div>
         </div>
         <div class="codes">
@@ -928,9 +790,9 @@
       saveNextBtn.disabled = true;
 
       try {
-        const res = await backendFetch("/api/evaluation/save", {
+        const res = await fetch(`${API_BASE}/api/evaluation/save`, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {"Content-Type": "application/json"},
           body: JSON.stringify(payload),
         });
 
@@ -993,25 +855,9 @@
     saveBtn.addEventListener("click", () => saveCurrent(false));
     saveNextBtn.addEventListener("click", () => saveCurrent(true));
 
-    if (backendModeSelect) {
-      const mode = getBackendMode();
-      backendModeSelect.value = mode;
-      backendModeSelect.addEventListener("change", () => {
-        const newMode = setBackendModeStored(backendModeSelect.value);
-        cloudflareBackendUrlCache = null; // bei Mode-Wechsel neu laden
-        setStatus(
-          newMode === "cloudflare"
-            ? "Backend-Modus: Cloudflare-Tunnel aktiv. Seite neu laden, falls Probleme auftreten."
-            : "Backend-Modus: lokales Backend (Port 8000). Seite neu laden, falls Probleme auftreten."
-        );
-        // optional: direkt neu laden
-        loadData();
-      });
-    }
-
+    // Standard: Filter "nur unbewertete" ist gesetzt (per HTML selected) -> direkt laden
     updateFormVisibility();
     loadData();
   </script>
 </body>
-
 </html>

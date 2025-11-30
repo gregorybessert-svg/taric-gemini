@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
   <meta charset="UTF-8" />
   <title>Datenbank-Auswertung – TARIC</title>
@@ -12,12 +11,12 @@
       --bg-panel-alt: #020617;
       --border: #1f2937;
       --accent: #2563eb;
-      --accent-soft: rgba(37, 99, 235, 0.12);
-      --accent-strong: rgba(37, 99, 235, 0.4);
+      --accent-soft: rgba(37,99,235,0.12);
+      --accent-strong: rgba(37,99,235,0.4);
       --text: #e5e7eb;
       --text-muted: #9ca3af;
       --radius: 14px;
-      --shadow: 0 18px 45px rgba(15, 23, 42, 0.6);
+      --shadow: 0 18px 45px rgba(15,23,42,0.6);
     }
 
     * {
@@ -41,9 +40,9 @@
     .shell {
       width: 100%;
       max-width: 1100px;
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.98));
+      background: linear-gradient(135deg, rgba(15,23,42,0.96), rgba(2,6,23,0.98));
       border-radius: 24px;
-      border: 1px solid rgba(148, 163, 184, 0.2);
+      border: 1px solid rgba(148,163,184,0.2);
       box-shadow: var(--shadow);
       padding: 24px 24px 28px;
       display: flex;
@@ -99,22 +98,22 @@
 
     .btn-primary {
       background: linear-gradient(135deg, #2563eb, #1d4ed8);
-      border-color: rgba(37, 99, 235, 0.5);
-      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.35);
+      border-color: rgba(37,99,235,0.5);
+      box-shadow: 0 14px 30px rgba(37,99,235,0.35);
     }
 
     .btn-primary:hover {
       transform: translateY(-1px);
-      box-shadow: 0 18px 40px rgba(37, 99, 235, 0.45);
+      box-shadow: 0 18px 40px rgba(37,99,235,0.45);
     }
 
     .btn-secondary {
       border-color: var(--border);
-      background: rgba(15, 23, 42, 0.9);
+      background: rgba(15,23,42,0.9);
     }
 
     .btn-secondary:hover {
-      background: rgba(15, 23, 42, 1);
+      background: rgba(15,23,42,1);
       box-shadow: var(--shadow);
       transform: translateY(-1px);
     }
@@ -126,7 +125,7 @@
     .backend-select {
       padding: 6px 10px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       background: #020617;
       color: var(--text);
       font-size: 0.8rem;
@@ -134,14 +133,14 @@
 
     .table-wrapper {
       border-radius: 18px;
-      background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), rgba(15, 23, 42, 0.96));
-      border: 1px solid rgba(31, 41, 55, 0.9);
+      background: radial-gradient(circle at top left, rgba(37,99,235,0.12), rgba(15,23,42,0.96));
+      border: 1px solid rgba(31,41,55,0.9);
       overflow: hidden;
     }
 
     .table-header {
       padding: 10px 14px;
-      border-bottom: 1px solid rgba(31, 41, 55, 0.9);
+      border-bottom: 1px solid rgba(31,41,55,0.9);
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -158,7 +157,7 @@
       max-height: 420px;
       overflow: auto;
       scrollbar-width: thin;
-      scrollbar-color: rgba(148, 163, 184, 0.7) transparent;
+      scrollbar-color: rgba(148,163,184,0.7) transparent;
     }
 
     .table-scroll::-webkit-scrollbar {
@@ -171,7 +170,7 @@
     }
 
     .table-scroll::-webkit-scrollbar-thumb {
-      background: rgba(148, 163, 184, 0.7);
+      background: rgba(148,163,184,0.7);
       border-radius: 999px;
     }
 
@@ -182,16 +181,15 @@
     }
 
     thead {
-      background: rgba(15, 23, 42, 0.96);
+      background: rgba(15,23,42,0.96);
       position: sticky;
       top: 0;
       z-index: 1;
     }
 
-    th,
-    td {
+    th, td {
       padding: 9px 12px;
-      border-bottom: 1px solid rgba(31, 41, 55, 0.9);
+      border-bottom: 1px solid rgba(31,41,55,0.9);
       text-align: left;
     }
 
@@ -204,7 +202,7 @@
     }
 
     tbody tr:hover {
-      background: rgba(15, 23, 42, 0.96);
+      background: rgba(15,23,42,0.96);
     }
 
     .code-cell {
@@ -239,8 +237,8 @@
       gap: 6px;
       padding: 4px 9px;
       border-radius: 999px;
-      background: rgba(15, 23, 42, 0.9);
-      border: 1px solid rgba(55, 65, 81, 0.9);
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(55,65,81,0.9);
       font-size: 0.75rem;
     }
 
@@ -249,40 +247,36 @@
       height: 8px;
       border-radius: 999px;
       background: #22c55e;
-      box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3);
+      box-shadow: 0 0 0 3px rgba(34,197,94,0.3);
     }
 
     .status-error .status-pill-dot {
       background: #f97373;
-      box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.35);
+      box-shadow: 0 0 0 3px rgba(248,113,113,0.35);
     }
 
     .status-error {
-      border-color: rgba(185, 28, 28, 0.7);
+      border-color: rgba(185,28,28,0.7);
     }
 
     @media (max-width: 768px) {
       .shell {
         padding: 18px 14px 20px;
       }
-
       .shell-header {
         flex-direction: column;
         align-items: flex-start;
       }
-
       .actions {
         width: 100%;
         justify-content: flex-start;
       }
-
       .desc-cell {
         max-width: none;
       }
     }
   </style>
 </head>
-
 <body>
   <div class="shell">
     <header class="shell-header">
@@ -337,18 +331,15 @@
         <span id="statusText">Bereit, Daten abzurufen …</span>
       </div>
       <div id="statusInfo">
-        Backend-Ziel je nach Auswahl oben (Local: Port 8000, Cloudflare: Tunnel-URL aus backend_url.json).
+        Backend-Ziel je nach Auswahl oben (Local: Port 8000, Cloudflare: Tunnel-URL).
       </div>
     </div>
   </div>
 
   <script>
-    // -----------------------------------
-    // Backend-Modus & dynamische Base-URL
-    // -----------------------------------
-    let cloudflareBackendUrlCache = null;
+    const CLOUD_FLARE_BACKEND = "https://offices-cycling-wallpapers-wiring.trycloudflare.com";
 
-    /*function getBackendMode() {
+    function getBackendMode() {
       try {
         const stored = localStorage.getItem("taricBackendMode");
         return stored === "cloudflare" ? "cloudflare" : "local";
@@ -356,84 +347,29 @@
         return "local";
       }
     }
-    */
-    function getBackendMode() {
-      try {
-        const stored = localStorage.getItem("taricBackendMode");
-        if (stored === "local" || stored === "cloudflare") {
-          return stored;
-        }
-        // Standardmodus, falls noch nichts gespeichert wurde:
-        return "cloudflare";
-      } catch {
-        return "cloudflare";
-      }
-    }
 
-    function setBackendModeStored(mode) {
+    function setBackendMode(mode) {
       const value = mode === "cloudflare" ? "cloudflare" : "local";
       try {
         localStorage.setItem("taricBackendMode", value);
-      } catch { }
+      } catch {}
       return value;
     }
 
-    function getLocalBackendBase() {
+    function getLocalApiBase() {
       const host = window.location.hostname || "localhost";
       const protocol = window.location.protocol === "https:" ? "https:" : "http:";
-      // Lokaler Backend-Port 8000
       return `${protocol}//${host}:8000`;
     }
 
-    async function loadCloudflareBackendUrlFromJson() {
-      if (cloudflareBackendUrlCache) {
-        return cloudflareBackendUrlCache;
-      }
-      try {
-        const res = await fetch("backend_url.json", { cache: "no-store" });
-        if (!res.ok) {
-          console.error("backend_url.json nicht erreichbar:", res.status);
-          return null;
-        }
-        const cfg = await res.json();
-        if (cfg.backend_url) {
-          const url = cfg.backend_url.replace(/\/+$/, "");
-          cloudflareBackendUrlCache = url;
-          return url;
-        } else {
-          console.error("backend_url.json enthält kein 'backend_url'");
-          return null;
-        }
-      } catch (err) {
-        console.error("Fehler beim Laden von backend_url.json:", err);
-        return null;
-      }
+    function resolveApiBase() {
+      return getBackendMode() === "cloudflare"
+        ? CLOUD_FLARE_BACKEND
+        : getLocalApiBase();
     }
 
-    async function getBackendBaseUrl() {
-      const mode = getBackendMode();
-      if (mode === "cloudflare") {
-        const url = await loadCloudflareBackendUrlFromJson();
-        if (url) {
-          return url;
-        }
-        // Fallback, falls backend_url.json nicht lesbar ist
-        return getLocalBackendBase();
-      } else {
-        return getLocalBackendBase();
-      }
-    }
+    let API_BASE = resolveApiBase();
 
-    async function backendFetch(path, options = {}) {
-      const base = await getBackendBaseUrl();
-      const url = base + path;
-      console.log("backendFetch →", url);
-      return fetch(url, options);
-    }
-
-    // -----------------------------------
-    // UI-Elemente & Summary-Logik
-    // -----------------------------------
     const summaryBody = document.getElementById("summaryBody");
     const tableMeta = document.getElementById("tableMeta");
     const statusPill = document.getElementById("statusPill");
@@ -442,13 +378,16 @@
     const backendModeSelect = document.getElementById("backendModeSelect");
 
     async function loadSummary() {
+      API_BASE = resolveApiBase();
       statusPill.classList.remove("status-error");
       statusText.textContent = "Lade Daten aus dem Backend …";
       tableMeta.textContent = "Lade Daten …";
 
       try {
-        const res = await backendFetch("/summary", {
-          headers: { "Accept": "application/json" }
+        const res = await fetch(`${API_BASE}/summary`, {
+          headers: {
+            "Accept": "application/json"
+          }
         });
 
         if (!res.ok) {
@@ -522,8 +461,7 @@
       const mode = getBackendMode();
       backendModeSelect.value = mode;
       backendModeSelect.addEventListener("change", () => {
-        const newMode = setBackendModeStored(backendModeSelect.value);
-        cloudflareBackendUrlCache = null; // bei Mode-Wechsel neu laden
+        const newMode = setBackendMode(backendModeSelect.value);
         statusText.textContent =
           newMode === "cloudflare"
             ? "Backend-Modus: Cloudflare-Tunnel aktiv. Daten werden von dort geladen."
@@ -532,11 +470,80 @@
       });
     }
 
-    // Initial laden
-    window.addEventListener("load", () => {
-      loadSummary();
-    });
+    loadSummary();
   </script>
-</body>
+  <script>
+let BACKEND_MODE = "local";  // "local" oder "cloudflare"
+let BACKEND_URL = null;
 
+// LOKALE URL → bitte anpassen, z. B.:
+// const LOCAL_BACKEND_URL = "http://192.168.7.124:8000";
+const LOCAL_BACKEND_URL = "http://192.168.7.124:8000";
+
+/**
+ * Lädt die Backend-Tunnel-URL aus backend_url.json (Cloudflare).
+ */
+async function loadBackendUrlFromJson() {
+  try {
+    const res = await fetch("backend_url.json", { cache: "no-store" });
+    if (!res.ok) {
+      console.error("backend_url.json nicht erreichbar:", res.status);
+      return null;
+    }
+    const cfg = await res.json();
+    if (cfg.backend_url) {
+      return cfg.backend_url.replace(/\/+$/, ""); // trailing Slashes weg
+    } else {
+      console.error("backend_url.json enthält kein 'backend_url'");
+      return null;
+    }
+  } catch (err) {
+    console.error("Fehler beim Laden von backend_url.json:", err);
+    return null;
+  }
+}
+
+/**
+ * Modus wechseln: "local" oder "cloudflare".
+ * Diese Funktion soll von deinem Umschalter (Buttons/Select) aufgerufen werden.
+ */
+async function setBackendMode(mode) {
+  BACKEND_MODE = mode;
+  if (mode === "local") {
+    BACKEND_URL = LOCAL_BACKEND_URL;
+    console.log("BACKEND_MODE=local, BACKEND_URL=", BACKEND_URL);
+  } else if (mode === "cloudflare") {
+    const url = await loadBackendUrlFromJson();
+    if (url) {
+      BACKEND_URL = url;
+      console.log("BACKEND_MODE=cloudflare, BACKEND_URL=", BACKEND_URL);
+    } else {
+      console.error("Konnte Cloudflare-Backend-URL nicht setzen – fallback auf LOCAL");
+      BACKEND_URL = LOCAL_BACKEND_URL;
+    }
+  } else {
+    console.error("Unbekannter BACKEND_MODE:", mode);
+  }
+}
+
+/**
+ * Wrapper für alle Backend-Requests.
+ * Beispiel: backendFetch("/api/evaluation/items?limit=200")
+ */
+async function backendFetch(path, options = {}) {
+  if (!BACKEND_URL) {
+    // Standard: beim ersten Aufruf automatisch Modus initialisieren (local)
+    await setBackendMode(BACKEND_MODE);
+  }
+  const url = BACKEND_URL + path;
+  console.log("backendFetch →", url);
+  return fetch(url, options);
+}
+
+// Beim Laden der Seite schon einmal initial auf "local" setzen:
+window.addEventListener("load", () => {
+  setBackendMode(BACKEND_MODE);
+});
+</script>
+</body>
 </html>

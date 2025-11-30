@@ -1,0 +1,9 @@
+gregory.bessert@gmail.com
+iqreg@prton.me
+# Gerhard
+hatisulz@gmail.com
+# weitere Kollegen
+# kollege1@example.com
+# kollege2@example.com
+# herbert@example.org
+# Kommentarzeilen mit # werden ignoriert

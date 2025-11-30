@@ -26,8 +26,8 @@ IMAGE_DIR = BASE_DIR / "bilder_uploads"
 IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-# GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-1.5-flash")
-GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash")
+# GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash")
+GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash-lite")
 
 # Erlaubte Bildformate (inkl. WEBP)
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}

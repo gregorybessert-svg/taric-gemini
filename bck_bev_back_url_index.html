@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
   <meta charset="UTF-8" />
   <title>TARIC Bildklassifikation (Gemini)</title>
@@ -12,15 +11,15 @@
       --bg-panel-alt: #020617;
       --border: #1f2937;
       --accent: #2563eb;
-      --accent-soft: rgba(37, 99, 235, 0.15);
-      --accent-strong: rgba(37, 99, 235, 0.5);
+      --accent-soft: rgba(37,99,235,0.15);
+      --accent-strong: rgba(37,99,235,0.5);
       --text: #e5e7eb;
       --text-muted: #9ca3af;
       --error: #ef4444;
       --success: #22c55e;
       --warning: #facc15;
       --radius: 14px;
-      --shadow: 0 20px 45px rgba(15, 23, 42, 0.9);
+      --shadow: 0 20px 45px rgba(15,23,42,0.9);
     }
 
     * {
@@ -56,7 +55,7 @@
       justify-content: space-between;
       gap: 12px;
       padding: 4px 4px 10px;
-      border-bottom: 1px solid rgba(148, 163, 184, 0.24);
+      border-bottom: 1px solid rgba(148,163,184,0.24);
       margin-bottom: 12px;
     }
 
@@ -96,7 +95,7 @@
     .pill {
       padding: 6px 12px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.4);
+      border: 1px solid rgba(148,163,184,0.4);
       font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -114,8 +113,8 @@
       padding: 2px 8px;
       border-radius: 999px;
       font-size: 11px;
-      background: rgba(56, 189, 248, 0.18);
-      border: 1px solid rgba(56, 189, 248, 0.7);
+      background: rgba(56,189,248,0.18);
+      border: 1px solid rgba(56,189,248,0.7);
       color: #e0f2fe;
     }
 
@@ -130,7 +129,7 @@
       text-decoration: none;
       padding: 4px 10px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.4);
+      border: 1px solid rgba(148,163,184,0.4);
       font-size: 11px;
       display: inline-flex;
       align-items: center;
@@ -146,12 +145,12 @@
 
     .nav-link.active {
       background: radial-gradient(circle at top, #1d4ed8, #020617);
-      border-color: rgba(129, 140, 248, 0.9);
+      border-color: rgba(129,140,248,0.9);
     }
 
     .nav-link:hover {
       transform: translateY(-1px);
-      border-color: rgba(191, 219, 254, 0.7);
+      border-color: rgba(191,219,254,0.7);
     }
 
     .backend-toggle {
@@ -171,7 +170,7 @@
     .backend-toggle select {
       padding: 3px 8px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       background: #020617;
       color: var(--text);
       font-size: 11px;
@@ -197,7 +196,7 @@
       position: absolute;
       inset: 0;
       background: radial-gradient(circle at top left,
-          rgba(56, 189, 248, 0.12) 0,
+          rgba(56,189,248,0.12) 0,
           transparent 60%);
       opacity: 0.7;
       pointer-events: none;
@@ -265,10 +264,10 @@
 
     .preview-frame {
       border-radius: 18px;
-      border: 1px dashed rgba(148, 163, 184, 0.5);
+      border: 1px dashed rgba(148,163,184,0.5);
       padding: 6px;
       background: radial-gradient(circle at top,
-          rgba(148, 163, 184, 0.18) 0,
+          rgba(148,163,184,0.18) 0,
           #020617 55%);
       display: flex;
       justify-content: center;
@@ -295,7 +294,7 @@
           #38bdf8 0,
           #2563eb 40%,
           #1d4ed8 100%);
-      box-shadow: 0 16px 30px rgba(37, 99, 235, 0.75);
+      box-shadow: 0 16px 30px rgba(37,99,235,0.75);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -306,7 +305,7 @@
 
     .btn-primary:active {
       transform: translateY(1px);
-      box-shadow: 0 10px 18px rgba(37, 99, 235, 0.7);
+      box-shadow: 0 10px 18px rgba(37,99,235,0.7);
     }
 
     .btn-primary[disabled] {
@@ -333,14 +332,14 @@
       padding: 4px 10px;
       border-radius: 999px;
       font-size: 12px;
-      background: rgba(34, 197, 94, 0.1);
-      border: 1px solid rgba(34, 197, 94, 0.9);
+      background: rgba(34,197,94,0.1);
+      border: 1px solid rgba(34,197,94,0.9);
       color: #bbf7d0;
     }
 
     .status-badge.error {
-      background: rgba(239, 68, 68, 0.12);
-      border-color: rgba(239, 68, 68, 0.9);
+      background: rgba(239,68,68,0.12);
+      border-color: rgba(239,68,68,0.9);
       color: #fecaca;
     }
 
@@ -387,7 +386,7 @@
     .code-pill {
       padding: 8px 12px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.5);
+      border: 1px solid rgba(148,163,184,0.5);
       background: radial-gradient(circle at top, #020617 0, #020617 85%);
       font-size: 15px;
       letter-spacing: 0.16em;
@@ -421,25 +420,25 @@
       gap: 4px;
       padding: 2px 8px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.5);
-      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148,163,184,0.5);
+      background: rgba(15,23,42,0.9);
     }
 
     .confidence-badge.low {
-      border-color: rgba(248, 113, 113, 0.9);
-      background: rgba(248, 113, 113, 0.15);
+      border-color: rgba(248,113,113,0.9);
+      background: rgba(248,113,113,0.15);
       color: #fecaca;
     }
 
     .confidence-badge.medium {
-      border-color: rgba(250, 204, 21, 0.9);
-      background: rgba(250, 204, 21, 0.15);
+      border-color: rgba(250,204,21,0.9);
+      background: rgba(250,204,21,0.15);
       color: #fef9c3;
     }
 
     .confidence-badge.high {
-      border-color: rgba(34, 197, 94, 0.9);
-      background: rgba(22, 163, 74, 0.15);
+      border-color: rgba(34,197,94,0.9);
+      background: rgba(22,163,74,0.15);
       color: #bbf7d0;
     }
 
@@ -448,9 +447,9 @@
       width: 100%;
       height: 7px;
       border-radius: 999px;
-      background: rgba(15, 23, 42, 0.9);
+      background: rgba(15,23,42,0.9);
       overflow: hidden;
-      border: 1px solid rgba(30, 64, 175, 0.9);
+      border: 1px solid rgba(30,64,175,0.9);
     }
 
     .confidence-bar-fill {
@@ -474,8 +473,8 @@
       font-size: 11px;
       padding: 4px 9px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
-      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148,163,184,0.6);
+      background: rgba(15,23,42,0.9);
       color: #e5e7eb;
       display: inline-flex;
       align-items: center;
@@ -506,14 +505,14 @@
       color: var(--text-muted);
     }
 
-    .alt-list li+li {
+    .alt-list li + li {
       margin-top: 4px;
     }
 
     .feedback-block {
       margin-top: 10px;
       padding-top: 10px;
-      border-top: 1px dashed rgba(55, 65, 81, 0.9);
+      border-top: 1px dashed rgba(55,65,81,0.9);
     }
 
     .feedback-title {
@@ -538,10 +537,10 @@
       flex: 1;
       min-width: 120px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
+      border: 1px solid rgba(148,163,184,0.6);
       padding: 7px 10px;
       font-size: 13px;
-      background: rgba(15, 23, 42, 0.95);
+      background: rgba(15,23,42,0.95);
       color: #e5e7eb;
       display: flex;
       align-items: center;
@@ -556,15 +555,15 @@
     }
 
     .btn-feedback.positive {
-      border-color: rgba(34, 197, 94, 0.8);
+      border-color: rgba(34,197,94,0.8);
     }
 
     .btn-feedback.negative {
-      border-color: rgba(239, 68, 68, 0.8);
+      border-color: rgba(239,68,68,0.8);
     }
 
     .btn-feedback.saved {
-      background: rgba(34, 197, 94, 0.15);
+      background: rgba(34,197,94,0.15);
     }
 
     .technical-hint {
@@ -578,10 +577,10 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
         "Liberation Mono", "Courier New", monospace;
       font-size: 11px;
-      background: rgba(15, 23, 42, 0.95);
+      background: rgba(15,23,42,0.95);
       padding: 2px 5px;
       border-radius: 5px;
-      border: 1px solid rgba(55, 65, 81, 0.9);
+      border: 1px solid rgba(55,65,81,0.9);
     }
 
     .meta-result {
@@ -641,7 +640,6 @@
     }
   </style>
 </head>
-
 <body>
   <div class="app">
     <header>
@@ -690,8 +688,7 @@
           </div>
 
           <p class="hint">
-            Foto aufnehmen oder ein Bild aus der Galerie wählen. Das Bild wird nur an dein Backend gesendet (lokal oder
-            über Cloudflare-Tunnel, je nach Auswahl).
+            Foto aufnehmen oder ein Bild aus der Galerie wählen. Das Bild wird nur an dein Backend gesendet (lokal oder über Cloudflare-Tunnel, je nach Auswahl).
           </p>
 
           <div class="file-row">
@@ -718,8 +715,8 @@
 
           <p class="technical-hint">
             Hinweis: Backend-Modus oben wählbar.
-            Local: Port <code>8000</code> dieses Hosts.
-            Cloudflare: dynamische Tunnel-URL aus <code>backend_url.json</code>.
+            Local: Port <code>8000</code> dieses Hosts. Cloudflare: Tunnel-URL
+            <code>offices-cycling-wallpapers-wiring.trycloudflare.com</code>.
           </p>
         </div>
       </section>
@@ -787,7 +784,7 @@
             </div>
 
             <div class="meta-result" id="meta-result">
-              ID: – · Datei: –
+              ID: – · Datei: – 
             </div>
           </div>
 
@@ -811,97 +808,6 @@
   </div>
 
   <script>
-    // -----------------------------------
-    // Backend-Modus & dynamische Base-URL
-    // -----------------------------------
-    let cloudflareBackendUrlCache = null;
-
-    /*function getBackendMode() {
-      try {
-        const stored = localStorage.getItem("taricBackendMode");
-        return stored === "cloudflare" ? "cloudflare" : "local";
-      } catch {
-        return "local";
-      }
-    }
-    */
-    function getBackendMode() {
-      try {
-        const stored = localStorage.getItem("taricBackendMode");
-        if (stored === "local" || stored === "cloudflare") {
-          return stored;
-        }
-        // Standardmodus, falls noch nichts gespeichert wurde:
-        return "cloudflare";
-      } catch {
-        return "cloudflare";
-      }
-    }
-
-    function setBackendModeStored(mode) {
-      const val = mode === "cloudflare" ? "cloudflare" : "local";
-      try {
-        localStorage.setItem("taricBackendMode", val);
-      } catch { }
-      return val;
-    }
-
-    function getLocalBackendBase() {
-      const host = window.location.hostname || "localhost";
-      const protocol = window.location.protocol === "https:" ? "https:" : "http:";
-      // Lokaler Backend-Port 8000
-      return `${protocol}//${host}:8000`;
-    }
-
-    async function loadCloudflareBackendUrlFromJson() {
-      if (cloudflareBackendUrlCache) {
-        return cloudflareBackendUrlCache;
-      }
-      try {
-        const res = await fetch("backend_url.json", { cache: "no-store" });
-        if (!res.ok) {
-          console.error("backend_url.json nicht erreichbar:", res.status);
-          return null;
-        }
-        const cfg = await res.json();
-        if (cfg.backend_url) {
-          const url = cfg.backend_url.replace(/\/+$/, "");
-          cloudflareBackendUrlCache = url;
-          return url;
-        } else {
-          console.error("backend_url.json enthält kein 'backend_url'");
-          return null;
-        }
-      } catch (err) {
-        console.error("Fehler beim Laden von backend_url.json:", err);
-        return null;
-      }
-    }
-
-    async function getBackendBaseUrl() {
-      const mode = getBackendMode();
-      if (mode === "cloudflare") {
-        const url = await loadCloudflareBackendUrlFromJson();
-        if (url) {
-          return url;
-        }
-        // Fallback, falls backend_url.json nicht lesbar ist
-        return getLocalBackendBase();
-      } else {
-        return getLocalBackendBase();
-      }
-    }
-
-    async function backendFetch(path, options = {}) {
-      const base = await getBackendBaseUrl();
-      const url = base + path;
-      console.log("backendFetch →", url);
-      return fetch(url, options);
-    }
-
-    // -----------------------------------
-    // UI-Elemente & Klassifikation
-    // -----------------------------------
     const fileInput = document.getElementById("file-input");
     const fileNameEl = document.getElementById("file-name");
     const previewImg = document.getElementById("preview-image");
@@ -929,16 +835,39 @@
 
     let lastResult = null;
 
-    function setStatus(type, message, hint) {
-      if (!message && !hint) {
-        statusRow.style.display = "none";
-        return;
+    const CLOUD_FLARE_BACKEND = "https://offices-cycling-wallpapers-wiring.trycloudflare.com";
+
+    function getBackendMode() {
+      try {
+        const stored = localStorage.getItem("taricBackendMode");
+        return stored === "cloudflare" ? "cloudflare" : "local";
+      } catch {
+        return "local";
       }
-      statusRow.style.display = "flex";
-      const isError = type === "error";
-      statusBadge.classList.toggle("error", isError);
-      statusLabel.textContent = isError ? "Fehler" : "Status";
-      statusText.textContent = hint || message || "";
+    }
+
+    function setBackendMode(mode) {
+      const value = mode === "cloudflare" ? "cloudflare" : "local";
+      try {
+        localStorage.setItem("taricBackendMode", value);
+      } catch {}
+      return value;
+    }
+
+    function getLocalBackendBase() {
+      const host = window.location.hostname || "localhost";
+      const protocol = window.location.protocol === "https:" ? "https:" : "http:";
+      return `${protocol}//${host}:8000`;
+    }
+
+    function resolveBackendBase() {
+      return getBackendMode() === "cloudflare"
+        ? CLOUD_FLARE_BACKEND
+        : getLocalBackendBase();
+    }
+
+    function backendUrl() {
+      return `${resolveBackendBase()}/classify`;
     }
 
     fileInput.addEventListener("change", () => {
@@ -960,6 +889,18 @@
       classifyBtn.disabled = false;
     });
 
+    function setStatus(type, message, hint) {
+      if (!message && !hint) {
+        statusRow.style.display = "none";
+        return;
+      }
+      statusRow.style.display = "flex";
+      const isError = type === "error";
+      statusBadge.classList.toggle("error", isError);
+      statusLabel.textContent = isError ? "Fehler" : "Status";
+      statusText.textContent = hint || message || "";
+    }
+
     async function classifyImage() {
       const file = fileInput.files && fileInput.files[0];
       if (!file) return;
@@ -972,7 +913,7 @@
         const formData = new FormData();
         formData.append("file", file);
 
-        const response = await backendFetch("/classify", {
+        const response = await fetch(backendUrl(), {
           method: "POST",
           body: formData,
         });
@@ -993,6 +934,7 @@
         }
 
         let data = await response.json();
+
         if (typeof data === "string") {
           data = JSON.parse(data);
         }
@@ -1015,23 +957,24 @@
         confBarEl.style.width = "0%";
         confBadgeEl.classList.remove("low", "medium", "high");
         confLabelEl.textContent = "keine Bewertung";
+        return;
+      }
+
+      const pct = Math.round(conf * 100);
+      confValEl.textContent = pct + " %";
+      confBarEl.style.width = Math.min(100, Math.max(0, pct)) + "%";
+
+      confBadgeEl.classList.remove("low", "medium", "high");
+
+      if (pct < 50) {
+        confBadgeEl.classList.add("low");
+        confLabelEl.textContent = "niedrig";
+      } else if (pct < 80) {
+        confBadgeEl.classList.add("medium");
+        confLabelEl.textContent = "mittel";
       } else {
-        const pct = Math.round(conf * 100);
-        confValEl.textContent = pct + " %";
-        confBarEl.style.width = Math.min(100, Math.max(0, pct)) + "%";
-
-        confBadgeEl.classList.remove("low", "medium", "high");
-
-        if (pct < 50) {
-          confBadgeEl.classList.add("low");
-          confLabelEl.textContent = "niedrig";
-        } else if (pct < 80) {
-          confBadgeEl.classList.add("medium");
-          confLabelEl.textContent = "mittel";
-        } else {
-          confBadgeEl.classList.add("high");
-          confLabelEl.textContent = "hoch";
-        }
+        confBadgeEl.classList.add("high");
+        confLabelEl.textContent = "hoch";
       }
     }
 
@@ -1111,14 +1054,13 @@
     btnOk.addEventListener("click", () => storeFeedback(true));
     btnNo.addEventListener("click", () => storeFeedback(false));
 
-    // Backend-Mode Dropdown anbinden
+    // Backend-Mode initial setzen
     (function initBackendMode() {
       const mode = getBackendMode();
       if (backendModeSelect) {
         backendModeSelect.value = mode;
         backendModeSelect.addEventListener("change", () => {
-          const newMode = setBackendModeStored(backendModeSelect.value);
-          cloudflareBackendUrlCache = null; // bei Mode-Wechsel neu holen
+          const newMode = setBackendMode(backendModeSelect.value);
           setStatus(
             "info",
             null,
@@ -1130,6 +1072,79 @@
       }
     })();
   </script>
-</body>
+  <script>
+let BACKEND_MODE = "local";  // "local" oder "cloudflare"
+let BACKEND_URL = null;
 
+// LOKALE URL → bitte anpassen, z. B.:
+// const LOCAL_BACKEND_URL = "http://192.168.7.124:8000";
+const LOCAL_BACKEND_URL = "http://192.168.7.124:8000";
+
+/**
+ * Lädt die Backend-Tunnel-URL aus backend_url.json (Cloudflare).
+ */
+async function loadBackendUrlFromJson() {
+  try {
+    const res = await fetch("backend_url.json", { cache: "no-store" });
+    if (!res.ok) {
+      console.error("backend_url.json nicht erreichbar:", res.status);
+      return null;
+    }
+    const cfg = await res.json();
+    if (cfg.backend_url) {
+      return cfg.backend_url.replace(/\/+$/, ""); // trailing Slashes weg
+    } else {
+      console.error("backend_url.json enthält kein 'backend_url'");
+      return null;
+    }
+  } catch (err) {
+    console.error("Fehler beim Laden von backend_url.json:", err);
+    return null;
+  }
+}
+
+/**
+ * Modus wechseln: "local" oder "cloudflare".
+ * Diese Funktion soll von deinem Umschalter (Buttons/Select) aufgerufen werden.
+ */
+async function setBackendMode(mode) {
+  BACKEND_MODE = mode;
+  if (mode === "local") {
+    BACKEND_URL = LOCAL_BACKEND_URL;
+    console.log("BACKEND_MODE=local, BACKEND_URL=", BACKEND_URL);
+  } else if (mode === "cloudflare") {
+    const url = await loadBackendUrlFromJson();
+    if (url) {
+      BACKEND_URL = url;
+      console.log("BACKEND_MODE=cloudflare, BACKEND_URL=", BACKEND_URL);
+    } else {
+      console.error("Konnte Cloudflare-Backend-URL nicht setzen – fallback auf LOCAL");
+      BACKEND_URL = LOCAL_BACKEND_URL;
+    }
+  } else {
+    console.error("Unbekannter BACKEND_MODE:", mode);
+  }
+}
+
+/**
+ * Wrapper für alle Backend-Requests.
+ * Beispiel: backendFetch("/api/evaluation/items?limit=200")
+ */
+async function backendFetch(path, options = {}) {
+  if (!BACKEND_URL) {
+    // Standard: beim ersten Aufruf automatisch Modus initialisieren (local)
+    await setBackendMode(BACKEND_MODE);
+  }
+  const url = BACKEND_URL + path;
+  console.log("backendFetch →", url);
+  return fetch(url, options);
+}
+
+// Beim Laden der Seite schon einmal initial auf "local" setzen:
+window.addEventListener("load", () => {
+  setBackendMode(BACKEND_MODE);
+});
+</script>
+</body>
 </html>
+
