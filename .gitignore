@@ -127,3 +127,8 @@ backend.log
 cf_backend.log
 cf_frontend.log
 frontend.log
+# --------------------------------------------------------
+# start_all.sh erzeugt bei jedem Start eine neue Cloudflare-URL 
+# { "backend_url": "https://api.trycloudflare.com" }
+# --------------------------------------------------------
+backend_url.json
