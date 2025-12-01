@@ -118,3 +118,12 @@ backend_url.json
 projectfiles.txt
 start_all.command
 start_all.sh
+# --------------------------------------------------------
+# Logfiles (Backend/Cloudflare)
+# --------------------------------------------------------
+
+*.log
+backend.log
+cf_backend.log
+cf_frontend.log
+frontend.log
